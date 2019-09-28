@@ -58,9 +58,9 @@ void Node::destroy_node(Node* node)
 }
 
 // Search all paths
-std::vector<struct Node*> Node::getPaths(
-	std::vector<struct Node*> pathNodes,
-	struct Node* node,
+std::vector<Node*> Node::getPaths(
+	std::vector<Node*> pathNodes,
+	Node* node,
 	int& pathHeight)
 {
 	// if we are done in this path
